@@ -1,0 +1,69 @@
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+
+/* text */
+h3{
+    text-align: center;
+}
+/* manu */
+.col-9{
+    margin-top: 30px;
+}
+
+/* naverbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: teal;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  /* img and text */
+.col-6{
+    margin-top: 20px;
+}
+
+/* gallery */
+
+.col-4 {
+    width: 30%;
+    height: 150px;
+    background: #000;
+    margin-left: 10px;
+}
+.bg-pink{
+    background: pink;
+}
+/* Footer */
+.col-12{
+    text-align: center;
+    padding: 30px;
+    color:#fff;
+    background: #000;
+    font-size: 20px;
+    margin-top: 133px;
+}
+
